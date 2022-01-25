@@ -23,29 +23,29 @@ class BottomBar extends StatelessWidget {
       },
       items: [
         BottomNavigationBarItem(
-          label: "",
+          label: "home",
           icon: Icon(FlutterIcons.home_ant),
         ),
         BottomNavigationBarItem(
-          label: "",
+          label: "explore",
           icon: Icon(
             FlutterIcons.grid_fea,
           ),
         ),
         BottomNavigationBarItem(
-          label: "",
+          label: "search",
           icon: Icon(
             FlutterIcons.search1_ant,
           ),
         ),
         BottomNavigationBarItem(
-          label: "",
+          label: "saves",
           icon: Icon(
             FlutterIcons.bookmark_fea,
           ),
         ),
         BottomNavigationBarItem(
-          label: "",
+          label: "profile",
           icon: Icon(
             FlutterIcons.user_fea,
           ),

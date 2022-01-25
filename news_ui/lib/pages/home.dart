@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:news_ui/utils/static_data.dart';
 import 'package:news_ui/widgets/mini_news_card.dart';
 import 'package:news_ui/widgets/single_news_card.dart';
+import 'package:news_ui/widgets/single_news_card2.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -18,8 +20,9 @@ class Home extends StatelessWidget {
             ),
             SingleNewsCard(),
             SizedBox(
-              height: 30.0,
+              height: 20.0,
             ),
+            SingleNewsCard2(),
             ListView.separated(
               shrinkWrap: true,
               physics: NeverScrollableScrollPhysics(),

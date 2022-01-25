@@ -42,8 +42,7 @@ class _AppBottomNavigationState extends State<AppBottomNavigation> {
         icon: FlutterIcons.heart_ant,
         onPressed: () {
           setActivePage("favorites");
-           Helper.nextPage(context, Favourites());
-         
+          Helper.nextPage(context, Favourites());
         },
         key: "favorites",
       ),
@@ -59,7 +58,7 @@ class _AppBottomNavigationState extends State<AppBottomNavigation> {
         icon: FlutterIcons.mail_fea,
         onPressed: () {
           setActivePage("messages");
-           Helper.nextPage(context, Ticket());
+          Helper.nextPage(context, Ticket());
         },
         key: "messages",
       ),

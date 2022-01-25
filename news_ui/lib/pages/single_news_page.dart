@@ -85,7 +85,7 @@ class SingleNewsPage extends StatelessWidget {
                         height: 30.0,
                       ),
                       Text(
-                        "Jacob Blake: Trump visits Kenosha to back police...",
+                        "Sandra Jeminez: There is a new shop opening in the middle of the woods but...",
                         style: TextStyle(
                           fontWeight: FontWeight.w600,
                           fontSize: 20.0,
@@ -95,7 +95,7 @@ class SingleNewsPage extends StatelessWidget {
                         height: 10.0,
                       ),
                       Text(
-                        "US President Donald Trump has visited Kenosha, Wisconsin, to back law enforcement after the police shooting of a black man sparked civil strife.",
+                        "There is something going on in Gravity Falls, there's always a mystery everytime you walk out the door, go to the Mystery Shack where everything's a Mystery.",
                         style: TextStyle(
                           height: 1.7,
                           color: Color.fromRGBO(139, 144, 165, 1),
@@ -105,13 +105,13 @@ class SingleNewsPage extends StatelessWidget {
                         height: 20.0,
                       ),
                       Container(
-                        height: ScreenUtil().setHeight(210.0),
+                        height: ScreenUtil().setHeight(300.0),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20.0),
                           image: DecorationImage(
                             fit: BoxFit.cover,
                             image: AssetImage(
-                              "assets/images/trump.png",
+                              "assets/images/mystery.jpeg",
                             ),
                           ),
                         ),
@@ -120,7 +120,7 @@ class SingleNewsPage extends StatelessWidget {
                         height: 10.0,
                       ),
                       Text(
-                        "By Michael Levenson",
+                        "By Sandra Jimenez",
                         style: TextStyle(
                           fontWeight: FontWeight.w600,
                           fontSize: 14.0,
@@ -130,14 +130,14 @@ class SingleNewsPage extends StatelessWidget {
                         height: 10.0,
                       ),
                       Text(
-                        "Published Aug. 28, 2020",
+                        "Published June. 26, 2026",
                         style: TextStyle(
                           height: 1.7,
                           color: Color.fromRGBO(139, 144, 165, 1),
                         ),
                       ),
                       Text(
-                        "Updated Aug. 29, 2020, 10:48 am ET",
+                        "Updated June. 29, 2026, 3:48 am ET",
                         style: TextStyle(
                           height: 1.7,
                           color: Color.fromRGBO(139, 144, 165, 1),
@@ -147,14 +147,8 @@ class SingleNewsPage extends StatelessWidget {
                         height: 20.0,
                       ),
                       Text(
-                        """
-The president visited areas damaged in the protests, including a burnt-out furniture store and camera shop destroyed in the upheaval.
-
-"These are not acts of peaceful protest, but really domestic terror," he later told local business leaders at a round table meeting in a high school gym.
-
-Mr Trump defended the actions of US police and accused the media of focusing only on "bad" incidents involving officers.
-
-"You have people that choke," he said. "They are under tremendous pressure. And they may be there for 15 years and have a spotless record and all of a sudden they're faced with a decision. They have a quarter of a second to make a decision. And if they make a wrong decision, one way or the other, they're either dead or they're in big trouble.
+                        """ The Mystery Shack is selling weird looking souvenirs that we all don't know where it came from. Standford pines is the owner of the Mystery Shack . The shop is running smoothly and have 4 workers including his grandson and grandaughter. The workers is Soos and Wendy they're both a teen making money during the summer.
+Dipper and his twin sister Mable come to Gravity Falls for the summer. why am i writing about them? Well because i think the boy is suspicious i've been following him for days. Now there is something going on in Gravity Falls that we all don't know. everything is a mystery, everything is a puzzle. This life is a corn maze.  
                         """,
                         style: TextStyle(
                           height: 1.7,

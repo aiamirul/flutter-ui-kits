@@ -10,7 +10,7 @@ class SingleNewsHeader extends StatelessWidget {
       height: ScreenUtil().setHeight(100.0),
       padding: EdgeInsets.only(bottom: 20.0, left: 16.0, right: 16.0),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Colors.deepPurpleAccent,
         boxShadow: [
           BoxShadow(
             color: Color.fromRGBO(169, 176, 185, 0.42),
@@ -30,7 +30,7 @@ class SingleNewsHeader extends StatelessWidget {
             Icon(FlutterIcons.chevron_left_fea),
             Expanded(
               child: Text(
-                "Jacob Blake: Trump visits Kenosha to back police...",
+                " Sandra Jimenez: The Mystery Shack is a souvenirs shop that...",
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: GoogleFonts.ptSans(

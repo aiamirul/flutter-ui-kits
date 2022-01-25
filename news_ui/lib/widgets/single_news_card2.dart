@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:news_ui/pages/single_news_page.dart';
 import 'package:news_ui/utils/helper.dart';
 
-class SingleNewsCard extends StatelessWidget {
+class SingleNewsCard2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -13,13 +13,13 @@ class SingleNewsCard extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            height: ScreenUtil().setHeight(300.0),
+            height: ScreenUtil().setHeight(210.0),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20.0),
               image: DecorationImage(
                 fit: BoxFit.cover,
                 image: AssetImage(
-                  "assets/images/icon.jpeg",
+                  "assets/images/mystery.jpeg",
                 ),
               ),
             ),
@@ -28,7 +28,7 @@ class SingleNewsCard extends StatelessWidget {
             height: 5.0,
           ),
           Text(
-            "Toby Determined: Mysterious looking bridge after a thousand...",
+            "Sandra Jimenez: The Mystery Shack is a souvenirs shop that...",
             style: TextStyle(
               fontWeight: FontWeight.w600,
               fontSize: 20.0,
@@ -40,7 +40,7 @@ class SingleNewsCard extends StatelessWidget {
           Row(
             children: [
               Text(
-                "10 min ago",
+                "20 min ago",
                 style: TextStyle(
                   fontSize: 14.0,
                 ),
@@ -52,7 +52,7 @@ class SingleNewsCard extends StatelessWidget {
                 ),
               ),
               Text(
-                "univers",
+                "Trending",
                 style: TextStyle(
                   fontSize: 14.0,
                   color: Color.fromRGBO(251, 89, 84, 1),

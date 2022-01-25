@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       designSize: Size(375, 812),
       builder: () => MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
+        title: 'GF News',
         theme: ThemeData(
           primaryColor: Constants.primaryColor,
           scaffoldBackgroundColor: Colors.white,

@@ -8,14 +8,14 @@ class StaticData {
   static List<Category> categories = [
     Category(
       id: 1,
-      title: "Most Popular",
+      title: "Trending",
       icon: Icon(
         FlutterIcons.trending_up_fea,
       ),
     ),
     Category(
       id: 2,
-      title: "World",
+      title: "Univers",
       icon: Icon(
         FlutterIcons.globe_ent,
       ),
@@ -29,7 +29,7 @@ class StaticData {
     ),
     Category(
       id: 4,
-      title: "Politics",
+      title: "Government",
       icon: SvgPicture.asset("assets/svg/politics.svg"),
     ),
     Category(
@@ -67,12 +67,12 @@ class StaticData {
   static List<News> news = [
     News(
       id: 1,
-      category: "Fashion",
-      title: "Who Is Paris Hilton, Really?",
+      category: "Business",
+      title: "Who Is Standford Pines, Really?",
       content:
-          "The heiress and proto-influencer says that she spent nearly two decades playing a character. Now she’s ready to be herself.",
+          "A successful business man selling mysterious souvenirs and also taking care of his grandson and grandaughter. Maybe the kids will run the shop someday. Standford Pines is running a house - shop , creative idea to start a business. The travelers and local residents love to shop at his shack",
       timePosted: "10 hours ago",
-      imagePath: "assets/images/paris.png",
+      imagePath: "assets/images/stan.jpeg",
     ),
     News(
       id: 2,
@@ -86,11 +86,11 @@ class StaticData {
     News(
       id: 3,
       category: "Magazine",
-      title: "Chris Rock Tried to Warn Us...",
+      title: "The MoneyBags...",
       content:
-          "In a candid interview, the comic discusses America’s summer of strife, Trump, blackface and his dramatic turn in the new season of “Fargo.",
+          "In a candid interview, the magazine discusses Mr.Ergmans Bratsman secrets of being so rich just by being a manager of the Several Timez. They are the most popular boys group in Gravity Falls.",
       timePosted: "1 day ago",
-      imagePath: "assets/images/chris.png",
+      imagePath: "assets/images/erg.png",
     ),
     News(
       id: 4,
